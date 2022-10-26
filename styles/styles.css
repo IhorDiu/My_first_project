@@ -22,7 +22,7 @@ body {
 
 .about {
     margin-bottom: 45px;
-    width: 400px;
+    width: 650px;
 }
 
 .about_position {
@@ -51,13 +51,15 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    width: 400px;
+    width: 100%;
+    text-align: justify;
+    text-indent: 50px;
 }
 
 /* projects styles */
 
 .projects {
-    width: 485px;
+    width: 650px;
     margin-bottom: 50px;
 }
 
@@ -160,7 +162,6 @@ body {
 
 /* education styles */
 
-.education {}
 
 .university {
     font-style: normal;
@@ -232,12 +233,14 @@ body {
     margin: 0;
 }
 
-.tech_skills {
+.tech_skills,
+.soft_skills {
     margin-bottom: 45px;
 }
 
 .tech_skills_list,
-.soft_skills_list {
+.soft_skills_list,
+.languages_skills {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -248,12 +251,14 @@ body {
 }
 
 .tech_skills_item,
-.soft_skills_item {
+.soft_skills_item,
+.languages_item {
     color: #FB6D3A;
 }
 
 .tech_skills_text,
-.soft_skills_text {
+.soft_skills_text,
+.languages_text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
